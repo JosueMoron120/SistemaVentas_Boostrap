@@ -1,0 +1,30 @@
+.fila-principal{
+    border-bottom: 3px solid rgb(71, 218, 255);
+}
+.pago{
+    
+    height: 25%;
+    background-color: rgb(241, 56, 82);
+    text-align: center;
+    padding-top: 25px;
+    font-size: 45px;
+    font-weight: 100;
+    
+}
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.table{
+    background-color: #ffffff;
+}
+.datos-pago{
+    background-color: #ffffff;
+}
+.cajita{
+    width: 45%;
+}
+.end-pago{
+    margin-top: 15px;
+    border-top: 0.1px solid black;
+}

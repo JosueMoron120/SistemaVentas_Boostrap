@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <div class="container-fluid d-flex">
+        <section class="col-md 8">
+            <div class="d-flex mt-4">
+                <label> Producto</label>
+                <select class="buscador form-control mx-3">
+                    <option>Buscar por nombre del Producto</option>
+                    <option>Producto1</option>
+                    <option>Prodcuto2</option>
+                    <option>Producto3</option>
+                </select>
+                <button type="button" class="btn btn-primary">Agregar</button>
+            </div>
+
+            <table class="table table-hover mt-5 text-center">
+                <tr class="fila-principal">
+                    <th>ITEM</th>
+                    <th>CANTIDAD</th>
+                    <th>PRODUCTO</th>
+                    <th>MARCA</th>
+                    <th>PRECIO</th>
+                    <th>IMPORTE</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>1</th>
+                    <th class="text-left">Leche Evaporada Entera Pack x 6 Un Lata 4110 Gr</th>
+                    <th>Gloria</th>
+                    <th>15.30</th>
+                    <th>15.30</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>1</th>
+                        <th class="text-left">Leche chocolatada Tetra Pack 1 Lt</th>
+                        <th>Laive</th>
+                        <th>3.10</th>
+                        <th>3.10</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>1</th>
+                        <th class="text-left">Leche fresca 0% lactosa Tetra Pack 1 Lt</th>
+                        <th>Laive</th>
+                        <th>3.20</th>
+                        <th>3.20</th>
+                    </tr>
+            </table><br>
+
+            <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-primary mx-3">GUARDAR COMPRA</button>
+            <button type="button" class="btn btn-danger mx-3">VACIAR CARRITO</button>
+        </div>
+        </section>
+        
+            <div class="col-md-4 mt-4">
+                <header class="pago">
+                    <p class="text-white">S/. 21.60</p>
+                </header>
+                <article class="datos-pago">
+                    <section class="d-flex justify-content-between px-3 pt-3">
+                        <div class="cajita">
+                            <label><b>DOCUMENTO</b></label>
+                            <select class="form-control">
+                                <option>FACTURA</option>
+                            </select>
+                        </div>
+                        <div class="cajita">
+                            <label><b>TIPO PAGO</b></label>
+                            <select class="form-control">
+                                <option>CONTADO</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section class="d-flex px-3 pt-3">
+                        <div class="pr-3">
+                            <label><b>SERIE</b></label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="pl-3">
+                            <label><b>N° DE VENTA</b></label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </section>
+                   
+                    <div class="px-3 pt-3">
+                        <label><b>Fecha de Compra</b></label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="px-3 pt-3">
+                        <label><b>PROVEEDOR</b></label>
+                        <input type="text" class="caja form-control" placeholder="RUC o Razón Social">
+                    </div>
+                    <div class="d-flex justify-content-between end-pago mx-3 px-3 pt-3">
+                        <aside>
+                            <label>SUB TOTAL</label><br>
+                        <label>I.G.V (18%)</label><br>
+                        <label>TOTAL</label>
+                        </aside>
+                        
+                        <aside>
+                            <label>S/. 18.30</label> <br>
+                            <label>S/. 3.29</label> <br>
+                            <label>S/. 21.60</label>
+                        </aside>
+                    </div>
+                </article>
+            </div>
+        
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
